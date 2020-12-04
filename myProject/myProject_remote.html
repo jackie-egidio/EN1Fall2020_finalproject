@@ -6,7 +6,7 @@
 	  <script src="../src/cloud.js" charset="utf-8"></script>
 	  <link rel="stylesheet" href="../src/style.css" />
 	</head>
-<body>
+<body style="background-color:powderblue">
 
 	<!-- SERVICE DOCK -->
 	<div id="servicedock">
@@ -17,6 +17,38 @@
 
 	<!-- CREATE YOUR PROJECT HERE -->
 
+	<div id="servicedock">
+		<service-airtable id="service_airtable" tablename="myProject"></service-airtable>
+		<service-spike id="service_spike"></service-spike>
+	</div>
+
+	<h1 style="text-align:center">My Project (Local Interface)</h1>
+
+	<div class="cloud_check">
+		<b><em>Monitor Cloud:</em></b>
+
+		<div type="cloud_check" cloud_compare="equal" cloud_action="run_slot">
+				<input type=text id="cloud_name" value="command">
+				<input type=text id="cloud_value" value="Forward">
+				<input type=text id="cloud_action_val" value="10">
+		</div>
+
+		<div type="cloud_check" cloud_compare="equal" cloud_action="run_slot">
+			<input type=text id="cloud_name" value="command">
+			<input type=text id="cloud_value" value="Backward">
+			<input type=text id="cloud_action_val" value="11">
+		</div>
+
+		<div type="cloud_check" cloud_compare="equal" cloud_action="stop_slot">
+				<input type=text id="cloud_name" value="command">
+				<input type=text id="cloud_value" value="Stop">
+		</div>
+
+	</div>
+	<br>
+
+	<center><img src="https://cdn.pixabay.com/photo/2017/10/29/12/37/pirates-2899637__340.jpg" alt="Pirates" width="680" height="510"></center>
+	<br>
 	<hr>
 
 	<h2>My Project Quick Links:</h2>
