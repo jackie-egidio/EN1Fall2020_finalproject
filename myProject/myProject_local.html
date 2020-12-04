@@ -14,33 +14,75 @@
 		<service-spike id="service_spike"></service-spike>
 	</div>
 
-	<h1 style="text-align:center">My Project (Local Interface)</h1>
+	<h2><em>CHOOSE YOUR MISSION</em></h2>
+	<ol>
+		<li><a href="#MISSION1">Make it to the lighthouse!</a></li>
+		<li><a href="#MISSION2">Escape the police!</a></li>
+		<li><a href="#MISSION3">Rescue your friend!</a></li>
+	</ol>
 
-	<div class="cloud_check">
-		<b><em>Monitor Cloud:</em></b>
+	<center><h2>COMMAND CENTER: </h2></center>
+		<div class="cloud_check">
+			<b><em>Monitor Cloud:</em></b>
 
-		<div type="cloud_check" cloud_compare="equal" cloud_action="run_slot">
+			<div type="cloud_check" cloud_compare="equal" cloud_action="run_slot">
+					<input type=text id="cloud_name" value="command">
+					<input type=text id="cloud_value" value="Forward">
+					<input type=text id="cloud_action_val" value="10">
+			</div>
+
+			<div type="cloud_check" cloud_compare="equal" cloud_action="run_slot">
 				<input type=text id="cloud_name" value="command">
-				<input type=text id="cloud_value" value="Forward">
-				<input type=text id="cloud_action_val" value="10">
-		</div>
+				<input type=text id="cloud_value" value="Backward">
+				<input type=text id="cloud_action_val" value="11">
+			</div>
 
-		<div type="cloud_check" cloud_compare="equal" cloud_action="run_slot">
-			<input type=text id="cloud_name" value="command">
-			<input type=text id="cloud_value" value="Backward">
-			<input type=text id="cloud_action_val" value="11">
-		</div>
-
-		<div type="cloud_check" cloud_compare="equal" cloud_action="stop_slot">
+			<div type="cloud_check" cloud_compare="equal" cloud_action="run_slot">
 				<input type=text id="cloud_name" value="command">
-				<input type=text id="cloud_value" value="Stop">
+				<input type=text id="cloud_value" value="Steer Right">
+				<input type=text id="cloud_action_val" value="12">
+			</div>
+
+			<div type="cloud_check" cloud_compare="equal" cloud_action="run_slot">
+				<input type=text id="cloud_name" value="command">
+				<input type=text id="cloud_value" value="Steer Left">
+				<input type=text id="cloud_action_val" value="13">
+			</div>
+
+			<div type="cloud_check" cloud_compare="equal" cloud_action="stop_slot">
+					<input type=text id="cloud_name" value="command">
+					<input type=text id="cloud_value" value="Stop">
+			</div>
+
 		</div>
+		<br>
 
-	</div>
-	<br>
+		<center><img src="https://cdn.pixabay.com/photo/2017/10/29/12/37/pirates-2899637__340.jpg" alt="Pirates" width="680" height="510"></center>
+		<center><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fopenclipart.org%2Fdetail%2F301681%2Ftreasure-map&psig=AOvVaw0Scz4poHDS6Qz-72ivtBqR&ust=1607143053244000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiWhcrAs-0CFQAAAAAdAAAAABAE" alt="TreasureMap"></center>
+		<br>
 
-	<center><img src="https://cdn.pixabay.com/photo/2017/10/29/12/37/pirates-2899637__340.jpg" alt="Pirates" width="680" height="510"></center>
-	<br>
+		<a id="MISSION1">
+		<h3>MAKE IT TO THE LIGHTHOUSE</h3>
+	</a>
+		<p>Evade obstacles during your journey to the lighthouse on the other side of the room!</p>
+
+		<br>
+		<br>
+		<br>
+
+		<a id="MISSION2">
+		<h3>ESCAPE THE POLICE</h3>
+		</a>
+		<p>Evade obstacles as you escape the police with your pirate booty!</p>
+
+		<br>
+		<br>
+		<br>
+
+		<a id="MISSION3">
+		<h3>RESCUE YOUR FRIEND</h3>
+	</a>
+		<p>Evade obstacles during your journey to rescue your friend from a sea monster!</p>
 	<hr>
 
 	<h2>My Project Quick Links:</h2>
