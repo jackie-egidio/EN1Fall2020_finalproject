@@ -9,6 +9,8 @@
 	<style>
 	.h1 {
 		text-align: center;
+		font-size: 100px;
+		font-family: cursive;
 	}
 	.h2 {
 		text-align: center;
@@ -17,10 +19,14 @@
 		text-align: center;
 	}
 	.button {
-		font-size: 16px;
+		font-size: 32px;
 		background-color: white;
 		display: inline-block;
 		padding: 5px;
+	}
+	.controlCenter {
+		text-align: center;
+		background-color: #EC7063
 	}
 	.mission {
 		font-size: 16px;
@@ -42,14 +48,11 @@
 	<!-- CREATE YOUR PROJECT HERE -->
 <h2 class="h2"><em>CHOOSE YOUR MISSION</em></h2>
 <p class="mission"><a href="#MISSION1">Make it to the lighthouse!</a></p>
-<br>
 <p class="mission"><a href="#MISSION2">Search for the treasure!</a></p>
-<br>
 <p class="mission"><a href="#MISSION3">Rescue your friend!</a></p>
-<br>
 
 <center><h2 class="h2">COMMAND CENTER: </h2></center>
-	<div class="cloud_check" style="text-align:center; background-color:#EC7063">
+	<div class="cloud_check controlCenter">
 		<button cloud_action='update' cloud_name='command' class="button">Forward</button>
 	  <button cloud_action='update' cloud_name='command' class="button">Backward</button>
 		<button cloud_action='update' cloud_name='command' class="button">Steer Right</button>
