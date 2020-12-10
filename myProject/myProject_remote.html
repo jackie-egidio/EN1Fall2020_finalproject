@@ -6,6 +6,20 @@
 	  <script src="../src/cloud.js" charset="utf-8"></script>
 	  <link rel="stylesheet" href="../src/style.css" />
 	</head>
+	<style>
+	.h1 {
+		text-align: center;
+	}
+	.h2 {
+		text-align: center;
+	}
+	.h3 {
+		text-align: center;
+	}
+	.button {
+
+	}
+	</style>
 <body style="background-color:powderblue">
 
 	<!-- SERVICE DOCK -->
@@ -14,19 +28,19 @@
 	</div>
 
 
-  <h1 style="text-align:center">PIRATE ADVENTURE</h1>
-	<h3 style="text-align:center">(Remote Interface)</h2>
+  <h1 class="h1">PIRATE ADVENTURE</h1>
+	<h3 class="h3">(Remote Interface)</h2>
 
 	<!-- CREATE YOUR PROJECT HERE -->
-<h2><em>CHOOSE YOUR MISSION</em></h2>
-<ol>
+<h2 class="h2"><em>CHOOSE YOUR MISSION</em></h2>
+<center><ol>
 	<li><a href="#MISSION1">Make it to the lighthouse!</a></li>
 	<li><a href="#MISSION2">Search for the treasure!</a></li>
 	<li><a href="#MISSION3">Rescue your friend!</a></li>
-</ol>
+</ol></center>
 
-<center><h2>COMMAND CENTER: </h2></center>
-	<div class="cloud_check" style="text-align:center; background-color:#EC7063">
+<center><h2 class="h2">COMMAND CENTER: </h2></center>
+	<div class="cloud_check" style="text-align:center; background-color:#EC7063; margin= 20px 50px 20px 50px">
 		<button cloud_action='update' cloud_name='command' style="padding= 15px 32px; font-size=16px">Forward</button>
 	  <button cloud_action='update' cloud_name='command'>Backward</button>
 		<button cloud_action='update' cloud_name='command'>Steer Right</button>
@@ -39,7 +53,7 @@
 	<br>
 
 	<a id="MISSION1">
-	<h3>MAKE IT TO THE LIGHTHOUSE</h3>
+	<h3 class="h3">MAKE IT TO THE LIGHTHOUSE</h3>
 </a>
 	<p>Evade obstacles during your journey to the lighthouse on the other side of the room!</p>
 
@@ -48,7 +62,7 @@
 	<br>
 
 	<a id="MISSION2">
-	<h3>SEARCH FOR THE TREASURE</h3>
+	<h3 class="h3">SEARCH FOR THE TREASURE</h3>
 	</a>
 	<p>Evade obstacles as you search for your pirate booty!</p>
 
@@ -57,7 +71,7 @@
 	<br>
 
 	<a id="MISSION3">
-	<h3>RESCUE YOUR FRIEND</h3>
+	<h3 class="h3">RESCUE YOUR FRIEND</h3>
 </a>
 	<p>Evade obstacles during your journey to rescue your friend from a sea monster!</p>
 	<hr>
